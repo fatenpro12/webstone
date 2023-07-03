@@ -1,12 +1,16 @@
 .App {
   text-align: center;
 }
-
+.promo{
+    max-height:400px
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.card{
+    width: 18rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

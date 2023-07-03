@@ -1,11 +1,12 @@
 import Nav from "./Nav";
-import logo from '../assets/Logo.svg'
+import Promotion from "./Promotion";
+
 
 function Header(){
     return (
         <>
-        <img src={logo} alt="logo"/>
         <Nav />
+        <Promotion />
         </>
     )
 }
