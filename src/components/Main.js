@@ -11,7 +11,10 @@ function Main(){
     .then(data => setDishes(data.meals))
   },[])
     return (
-        <DishElement meals={daishes}/>
+        <div class="row no-gutters">
+        {daishes && daishes.map(val =>
+        <div class="col-12 col-sm-6 col-md-4"><DishElement meals={val}/></div>)}
+      </div>
     )
 }
  export default Main;
